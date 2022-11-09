@@ -10,8 +10,6 @@ public class ProduitController {
 
 	}
 	
-	public void test(int i, int j) {
-
-	}
+	
 
 }
