@@ -29,5 +29,11 @@ public class UserServiceImpl implements UserService{
 		return userRepository.findAllSql();
 	}
 
+	@Override
+	public User saveUser(User user) {
+		// TODO Auto-generated method stub
+		return userRepository.save(user);
+	}
+
 	
 }

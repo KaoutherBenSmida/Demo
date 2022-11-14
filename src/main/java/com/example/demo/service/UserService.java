@@ -8,5 +8,6 @@ public interface UserService {
 	
 	public List<User> findAll();
 	public List<User>findAllSql();
+	public User saveUser(User user);
 
 }
