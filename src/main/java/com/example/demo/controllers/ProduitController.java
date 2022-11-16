@@ -24,9 +24,7 @@ public class ProduitController {
 
 	}
 
-	public void test(int i, String s) {
 
-	}
 	
 	@GetMapping(value = "/allProducts")
 	public List<Produit> findAllProduits(){
