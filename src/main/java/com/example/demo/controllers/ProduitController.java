@@ -25,11 +25,7 @@ public class ProduitController {
 	}
 
 
-	
-	@GetMapping(value = "/allProducts")
-	public List<Produit> findAllProduits(){
-		return produitService.findAllProduits();
-	}
+
 	
 	@PostMapping(value = "/saveProduct", consumes = "application/json")
 	public Produit saveProduit(@RequestBody Produit p){
