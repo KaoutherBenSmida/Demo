@@ -20,9 +20,7 @@ public class ProduitController {
 
 	@Autowired
 	private ProduitService produitService;
-	public void test(int i) {
-
-	}
+	
 
 
 	
